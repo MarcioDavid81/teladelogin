@@ -39,12 +39,12 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--cor2);
-    width: 250px;
+    width: 300px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px var(--cor3);
-    transition: width 0.5s, height 0.5s;
+    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
 section#login>div#img{
@@ -59,7 +59,14 @@ section#login>div#form{
 }
 #form h1{
     font-family: var(--font0);
+    text-align: center;
+    margin-bottom: 10px;
 }
 #form p{
     font-family: var(--font2);
+    font-size: 0.8em;
+}
+.campo{
+    font-family: var(--font2);
+    font-size: 0.8em;
 }
