@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*
+Tipical Device Breakpoints
+Pequenas Telas: até 600px
+Celular: de 601px até 768px
+Tablet: de 769px até 992px
+Desktop: de 992px até 1200px
+TV: acima de 1200px
+*/
+:root{
+    --cor0: #a42fe0;
+    --cor1: #efec47;
+    --cor2: #e7e2e6;
+    --cor3: #312c37;
+    
+    --font0: 'Fugaz One';
+    --font1: 'SaeadaEL', arial, sans-serif;
+    --font2: 'SaeadaL', arial, sans-serif;
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(140deg, #312c37, #a42fe0, #efec47, #e7e2e6);
+    }
+    section#login{
+        width: 80vw;
+    }
+    section#login>div#img{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login>div#form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    body{
+        background-image: linear-gradient(140deg, #312c37, #a42fe0, #efec47, #e7e2e6);
+    }
+    section#login{
+        width: 950px;
+    }
+    section#login>div#img{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    section#login>div#form{
+        float: right;
+        width: 60%;
+    }
+}
