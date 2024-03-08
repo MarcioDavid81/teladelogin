@@ -18,11 +18,13 @@ TV: acima de 1200px
     --font2: 'SaeadaL', arial, sans-serif;
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
+    /*CONFIGURAÇÃO PARA TABLETS*/
     body{
         background-image: linear-gradient(140deg, #312c37, #a42fe0, #efec47, #e7e2e6);
     }
     section#login{
         width: 80vw;
+        height: 350px;
     }
     section#login>div#img{
         float: left;
@@ -38,15 +40,18 @@ TV: acima de 1200px
     }
     #form p{
         font-size: 1.2em;
+        margin: 20px 0px;
     }
 }
 
 @media screen and (min-width: 993px) {
+    /*cONFIGURAÇÃO PARA PC E TELAS GRANDES*/
     body{
         background-image: linear-gradient(320deg, #312c37, #a42fe0, #efec47, #e7e2e6);
     }
     section#login{
         width: 950px;
+        height: 400px;
     }
     section#login>div#img{
         float: right;
@@ -62,5 +67,6 @@ TV: acima de 1200px
     }
     #form p{
         font-size: 1.5em;
+        margin: 20px 0px;
     }
 }
