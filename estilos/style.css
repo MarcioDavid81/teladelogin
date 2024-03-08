@@ -1,1 +1,21 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@font-face{ font-family: 'SaeadaEL';
+    src: url('../fontes/LTSaeada-ExtraLight.otf'), format('true type'); font-weight: normal; font-style: normal;}
+    @font-face{ font-family: 'SaeadaL';
+        src: url('../fontes/LTSaeada-Light.otf'), format('true type'); font-weight: normal; font-style: normal;}
+     
+
+
+:root{
+    --cor0: #a42fe0;
+    --cor1: #efec47;
+    --cor2: #e7e2e6;
+    --cor3: #312c37;
+    
+    --font0: 'Fugaz One';
+    --font1: 'SaeadaEL', arial, sans-serif;
+    --font2: 'SaeadaL', arial, sans-serif;
+}
+
